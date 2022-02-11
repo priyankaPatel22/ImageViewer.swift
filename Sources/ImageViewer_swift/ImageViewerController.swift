@@ -108,7 +108,7 @@ UIGestureRecognizerDelegate {
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        self.navBar?.alpha = 0.0
+        //self.navBar?.alpha = 0.0
     }
     
     override func viewWillLayoutSubviews() {
@@ -194,7 +194,7 @@ UIGestureRecognizerDelegate {
         
         let currentNavAlpha = self.navBar?.alpha ?? 0.0
         UIView.animate(withDuration: 0.235) {
-            self.navBar?.alpha = currentNavAlpha > 0.5 ? 0.0 : 1.0
+            //self.navBar?.alpha = currentNavAlpha > 0.5 ? 0.0 : 1.0
         }
     }
     
